@@ -26,8 +26,11 @@
 		"mockery/mockery": "~0.9"
 	},
 	"autoload": {
-		"psr-4": {
-			"Frozennode\\Administrator\\": "src/"
+		"classmap": [
+			"src/controllers"
+		],
+		"psr-0": {
+			"Frozennode\\Administrator": "src/"
 		}
 	},
 	"scripts": {
