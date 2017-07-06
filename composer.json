@@ -40,5 +40,12 @@
 			"if [ -d \"vendor/ckeditor/\" ] \nthen \nrm -R vendor/ckeditor/ \nfi"
 		]
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Frozennode\\Administrator\\AdministratorServiceProvider"
+			]
+		}
+	}
 }
